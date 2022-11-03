@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- user UI -->
+    <div class="uiWrapper">
+      <section class="headerWrapper">
+        <b> Sort by Title or Author</b>
+        <select id="option">
+          <option>---Sort---</option>
+          <option>Author (A-Z)</option>
+          <option>Author (Z-A)</option>
+          <option>Title (A-Z)</option>
+          <option>Title (Z-A)</option>
+          <option>Favorites</option>
+          <option>Number of Subjects (Least to Most)</option>
+          <option>Number of Subjects (Most to Least)</option>
+        </select>
+        <h4 class="searchHeader">Or Search</h4>
+        <input type="text" value="--Search--" id="searchBar" />
+        <p class="numFavoritesHeader">Number of Favorites</p>
+        <p class="numFavorites">0</p>
+      </section>
+      <section class="headerWrapper">
+        <b> Add Books</b>
+        <form>
+          <input type="text" value="Title" id="titleAdd" />
+          <input type="text" value="Author" id="authorAdd" />
+          <input type="text" value="Language" id="languageAdd" />
+          <input type="text" value="Subjects" id="subjectsAdd" />
+          <button>ADD</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- JS Appends to main -->
+    <main></main>
+  </body>
+  <script src="js/book-data.js"></script>
+  <script src="index.js"></script>
+</html>

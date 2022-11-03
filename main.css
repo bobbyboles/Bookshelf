@@ -1,0 +1,105 @@
+/*
+The css is kinda sloppy 
+I'm sorry 
+At least it's short
+*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uiWrapper{
+  display: flex;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: .4em;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: center;
+}
+
+section {
+  border: black 1px solid;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
+  width: 18em;
+  min-height: 35em;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #747474, -5px -5px 10px #ffffff;
+  position: relative;
+}
+
+h1 {
+  border-bottom: 1px black solid;
+  min-height: 3em;
+  box-shadow: black 2px 2px;
+}
+
+.subjects {
+  text-decoration: underline;
+  text-align: center;
+}
+
+article{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.imageWrapper {
+  height: 2em;
+  width: 2em;
+}
+
+.startImg{
+  display: none;
+  height: inherit;
+}
+
+.favoriteWrapper{
+  gap: 1em;
+  margin-top: auto;
+}
+p {
+margin: 0;
+}
+
+.headerWrapper{
+  min-height: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+}
+
+.numFavoritesHeader {
+  border-bottom: 1px solid black;}
+
+#option {
+  text-align: center;
+}
+
+#searchBar {
+  text-align: center;
+}
+
+.searchHeader {
+  margin: 0
+}
+
+.commentWrapper{
+  display: none;
+}
