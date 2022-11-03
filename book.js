@@ -116,5 +116,6 @@ class Book {
       );
   
       //book class render
-      re
+      return bookWrapper;
+    }
   }
